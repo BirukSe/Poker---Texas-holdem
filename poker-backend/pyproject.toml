@@ -1,0 +1,31 @@
+[project]
+name = "poker-backend"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Birhanu Asmamaw",email = "birhanuasmamamaw24@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi (>=0.115.12,<0.116.0)",
+    "pokerkit (>=0.6.3,<0.7.0)",
+    "pydantic (>=2.11.5,<3.0.0)",
+    "psycopg2-binary (>=2.9.10,<3.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.12"
+pokerkit = "^0.6.3"
+pydantic = "^2.11.5"
+psycopg2-binary = "^2.9.10"
+uvicorn = "^0.34.2"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
